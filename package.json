@@ -1,0 +1,20 @@
+{
+  "name": "orthodox-church-finder",
+  "version": "0.1.0",
+  "description": "An API for finding Orthodox Churches in the USA",
+  "homepage": "https://github.com/CodeZea1ot/orthodox-church-finder#readme",
+  "bugs": {
+    "url": "https://github.com/CodeZea1ot/orthodox-church-finder/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeZea1ot/orthodox-church-finder.git"
+  },
+  "license": "MIT",
+  "author": "Tyler W. Phass",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
