@@ -15,7 +15,7 @@
   "type": "module",
   "main": "app.js",
   "scripts": {
-    "start": "node dist/app.cjs",
+    "start": "node --env-file=.env dist/app.cjs",
     "build": "esbuild src/app.js --bundle --platform=node --format=cjs --outfile=dist/app.cjs",
     "dev": "nodemon src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
