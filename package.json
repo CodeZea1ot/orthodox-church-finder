@@ -1,0 +1,33 @@
+{
+    "name": "orthodox-church-finder",
+    "version": "0.1.0",
+    "description": "An API for finding Orthodox Churches in the USA",
+    "homepage": "https://github.com/CodeZea1ot/orthodox-church-finder#readme",
+    "bugs": {
+        "url": "https://github.com/CodeZea1ot/orthodox-church-finder/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/CodeZea1ot/orthodox-church-finder.git"
+    },
+    "license": "MIT",
+    "author": "Tyler W. Phass",
+    "type": "module",
+    "main": "app.js",
+    "scripts": {
+        "start": "node --env-file=.env dist/app.cjs",
+        "build": "esbuild src/app.js --bundle --platform=node --format=cjs --outfile=dist/app.cjs",
+        "dev": "nodemon src/app.js",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "format:check": "npx prettier . --check",
+        "format:write": "npx prettier . --write"
+    },
+    "dependencies": {
+        "express": "^5.3.0"
+    },
+    "devDependencies": {
+        "esbuild": "0.28.2",
+        "nodemon": "^3.1.14",
+        "prettier": "3.10.1"
+    }
+}

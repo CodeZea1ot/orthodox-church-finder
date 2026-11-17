@@ -1,0 +1,25 @@
+# Dependencies (ignored by default, but good to be explicit)
+node_modules
+
+# Build & distribution outputs
+dist
+build
+.next
+out
+
+# Lockfiles & package manager logs
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+npm-debug.log*
+
+# Test coverage & cache
+coverage
+.nyc_output
+.eslintcache
+.prettiercache
+
+# Environment & minified files
+.env*
+*.min.js
+*.min.css
